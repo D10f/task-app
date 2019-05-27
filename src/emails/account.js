@@ -20,13 +20,6 @@ const sendCancelationEmail = (email, name) => {
   })
 }
 
-// sgMail.send({
-//   to: 'herokunt@tutanota.com',
-//   from: 'herokunt@tutanota.com',
-//   subject: 'This is a test email',
-//   text: 'Is this working? Hopefully yes!'
-// })
-
 module.exports = {
   sendWelcomeEmail,
   sendCancelationEmail
